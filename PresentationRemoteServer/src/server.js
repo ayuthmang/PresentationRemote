@@ -53,6 +53,6 @@ const PORT = 3000
 http.listen(PORT, function() {
   // print serve's local ip address
   internalIp.v4().then(ip => {
-    console.log(`Server is listening on ${ip}:${PORT}`)
+    console.log(`Server is listening on http://${ip}:${PORT}`)
   })
 })
