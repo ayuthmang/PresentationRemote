@@ -1,6 +1,6 @@
 # Android Presentation Remote Server
 
-Apple is make everthing works perfectly on their echo system, you can turn your phone into a presentation remote but not my android (so sad). So I decided to make a simple presentation remote using node and socket.io to let my phone into a presentation remote. 
+Apple is make everthing works perfectly on their ecosystem, you can turn your phone into a presentation remote but not my android (so sad). So I decided to make a simple presentation remote using node and socket.io to let my phone into a presentation remote. 
 
 ## Prerequisite
 
@@ -10,8 +10,8 @@ Apple is make everthing works perfectly on their echo system, you can turn your 
 
 ## Installation 
 
-1. Goto project folder and `npm install` or `yarn install`
-2. Run the server using `npm run serve` or `yarn serve`
+1. Open terminal and goto project folder and execute an command `npm install` or `yarn install`.
+2. Run the server using a command `npm run serve` or `yarn serve`.
 3. Connect the remote to server. (or just open browser to 127.0.0.1:3000).
 4. Open keynote and focus a window and press start presentation on your android device.
 5. Let the world know your with your perfect presentation keynote.
