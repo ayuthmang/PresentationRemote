@@ -2,6 +2,7 @@ const path = require('path')
 const app = require('express')()
 const http = require('http').Server(app)
 const io = require('socket.io')(http)
+const internalIp = require('internal-ip')
 
 const command = require('./command')
 
@@ -51,7 +52,7 @@ io.on('connection', socket => {
 const PORT = 3000
 http.listen(PORT, function() {
   // print serve's local ip address
-  require('dns').lookup(require('os').hostname(), function(err, add, fam) {
-    console.log(`listening on ${add}:${PORT}`)
+  internalIp.v4().then(ip => {
+    console.log(`Server is listening on ${ip}:${PORT}`)
   })
 })
