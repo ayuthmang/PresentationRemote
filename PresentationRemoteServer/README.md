@@ -26,4 +26,4 @@ This app works by sending a keyboard keys to our computer so we need allow a per
 4. Click lock icon from the bottom left corner and type your password to make changes to your system.
 5. Find a 'Terminal.app' if you were use terminal as default or 'iTerm2.app' if you use iterm2 as default terimnal.
 6. Check to box in front of 'Terminal.app' or 'iTerm.app' or both and close a 'Security & Privacy' window.
-7. RUn a server again.
+7. Run a server again.
