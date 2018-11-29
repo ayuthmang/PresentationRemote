@@ -16,7 +16,7 @@ This app works by sending a keyboard keys to our computer so we need allow a per
 2. Click 'Security & Privacy'.
 3. Open 'Accessibility' tab.
 4. Click lock icon from the bottom left corner and type your password to make changes to your system.
-5. Find a 'Terminal.app' if you were use terminal as default or 'iTerm2.app' if you use iterm2 as default terimnal.
+5. Find a 'Terminal.app' if you were use terminal as default or 'iTerm2.app' if you use iterm2 as default terimnal(if it's not show both icons you must try to run a server once and click some button to send a command to our server and makes a server to trigger our keyboard).
 6. Check to box in front of 'Terminal.app' or 'iTerm.app' or both and close a 'Security & Privacy' window.
 7. Run a server again.
 
