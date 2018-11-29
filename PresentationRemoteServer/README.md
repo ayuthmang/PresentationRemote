@@ -1,4 +1,4 @@
-# Android Presentation Remote Server
+# Presentation Remote Server
 
 Apple is make everthing works perfectly on their ecosystem, you can turn your phone into a presentation remote but not my android (so sad). So I decided to make a simple presentation remote using node and socket.io to let my phone into a presentation remote. 
 
