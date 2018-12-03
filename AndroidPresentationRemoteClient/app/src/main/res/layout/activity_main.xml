@@ -20,14 +20,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Connect" />
+            android:drawableStart="@drawable/ic_phonelink_black_24dp"
+            android:text="Connect"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnDisconnectFromRemoteServer"
+            d
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Disconnect" />
+            android:drawableEnd="@drawable/ic_phonelink_off_black_24dp"
+            android:text="Disconnect"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
@@ -38,17 +45,24 @@
 
         <Button
             android:id="@+id/btnStartPresentation"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Present" />
+            android:drawableStart="@drawable/ic_play_arrow_black_24dp"
+            android:text="Present"
+            android:textColor="@android:color/holo_green_dark"
+            android:textStyle="bold"
+            />
 
         <Button
             android:id="@+id/btnStopPresentation"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="End" />
+            android:drawableEnd="@drawable/ic_stop_black_24dp"
+            android:text="End"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -58,17 +72,21 @@
 
         <Button
             android:id="@+id/btnGotoFirstSlide"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="First" />
+            android:drawableStart="@drawable/ic_fast_rewind_black_24dp"
+            android:text="First"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnGotoLastSlide"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Last" />
+            android:drawableEnd="@drawable/ic_fast_forward_black_24dp"
+            android:text="Last"
+            android:textStyle="bold" />
     </LinearLayout>
 
     <LinearLayout
@@ -79,17 +97,21 @@
 
         <Button
             android:id="@+id/btnGotoPreviousSlide"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Back" />
+            android:drawableStart="@drawable/ic_navigate_before_black_24dp"
+            android:text="Back"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnGotoNextSlide"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Next" />
+            android:drawableEnd="@drawable/ic_navigate_next_black_24dp"
+            android:text="Next"
+            android:textStyle="bold" />
     </LinearLayout>
 
 </LinearLayout>
