@@ -2,7 +2,7 @@
 
 Turn your phone into a presentation remote, watch the demo video tutorial [here](https://www.youtube.com/watch?v=iogmyrpM4UE).
 
-## Installation
+## Installation and Setup
 
 1. Server installation guide click [here](https://github.com/blacksourcez/PresentationRemote/tree/master/PresentationRemoteServer).
 2. Open an application via
