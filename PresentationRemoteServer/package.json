@@ -9,11 +9,23 @@
     "serve": "nodemon ./src/server.js"
   },
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.20.0",
     "global": "^4.3.2",
-    "internal-ip": "^3.0.1",
-    "nodemon": "^1.18.6",
-    "robotjs": "^0.5.1",
-    "socket.io": "^2.1.1"
+    "internal-ip": "^6.2.0",
+    "nodemon": "^3.1.14",
+    "robotjs": "^0.9.1",
+    "socket.io": "^2.5.1"
+  },
+  "resolutions": {
+    "engine.io": "^3.6.1",
+    "socket.io-parser": "^3.3.6",
+    "xmlhttprequest-ssl": "^1.6.2",
+    "body-parser": "^1.20.6",
+    "serve-static": "^1.16.0",
+    "path-to-regexp": "^0.1.13",
+    "qs": "^6.16.0",
+    "min-document": "^2.19.1",
+    "cookie": "^0.7.0",
+    "debug": "^4.3.1"
   }
 }
